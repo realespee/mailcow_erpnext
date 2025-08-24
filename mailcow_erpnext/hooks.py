@@ -137,13 +137,17 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Employee": {
+		"after_insert": "mailcow_erpnext.integration.events.provision_mailbox",
+        "on_update": "mailcow_erpnext.integration.events.provision_mailbox",
+		"on_trash": "mailcow_erpnext.integration.events.remove_mailbox"
+	},
+    "Leave Application":{
+        "on_submit": "mailcow_erpnext.integration.events.create_calendar_holiday",
+        "on_cancel": "mailcow_erpnext.integration.events.delete_cal_event"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
