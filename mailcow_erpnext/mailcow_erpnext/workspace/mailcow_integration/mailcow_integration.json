@@ -1,0 +1,45 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"REet50Ejvr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mailcow Integration</span>\",\"col\":12}},{\"id\":\"L1xQ6GTJ_z\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mailcow Settings\",\"col\":3}},{\"id\":\"EXJY7zs-IT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mailcow Dav Password\",\"col\":3}}]",
+ "creation": "2025-08-25 00:08:06.422948",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "mail",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Mailcow Integration",
+ "links": [],
+ "modified": "2025-08-25 00:10:57.608934",
+ "modified_by": "Administrator",
+ "module": "Mailcow ERPNext",
+ "name": "Mailcow Integration",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Mailcow Settings",
+   "link_to": "Mailcow Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Mailcow Dav Password",
+   "link_to": "Mailcow DAV Password",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Mailcow Integration"
+}
