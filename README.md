@@ -1,6 +1,6 @@
 ### Mailcow ERPNext
 
-Integrating Mailcow Into Frappe ERPNext for Synching
+Integrating Mailcow Into Frappe ERPNext for Synching Emails
 
 ### Installation
 
@@ -28,6 +28,9 @@ Pre-commit is configured to use the following tools for checking and formatting 
 - prettier
 - pyupgrade
 
+## Documentation
+See [How to Use](DOCUMENTAION.md)
+
 ### License
 
-mit
+MIT
